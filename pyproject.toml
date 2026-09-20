@@ -1,0 +1,31 @@
+[project]
+name = "jev-hands"
+version = "0.2.0"
+description = "Drive an Android phone with TypeSafe Jev deciding which UI element to act on."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "jev-hands contributors" }]
+keywords = ["android", "uiautomator2", "mcp", "typesafe", "jev", "automation"]
+dependencies = [
+    "mcp>=2,<3",
+    "uiautomator2>=3.7",
+    "httpx>=0.27",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jev_hands"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/jev_hands", "tests", "scripts", "README.md", "LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"

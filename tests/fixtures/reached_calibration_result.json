@@ -1,0 +1,1659 @@
+{
+  "dataset": "tests/fixtures/reached_calibration.jsonl",
+  "samples": 56,
+  "destination": 26,
+  "not_destination": 30,
+  "models": [
+    "jev-1.13.0"
+  ],
+  "reached_threshold": 0.25,
+  "content_grid": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "entry_grid": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7
+  ],
+  "readings": [
+    {
+      "source": "2026-09-20-round5-retest/T4d_run1",
+      "screen_kind": "orders_list",
+      "end_state": "a list of past orders with shop names and dates is showing",
+      "label": "destination",
+      "reached": 0.92,
+      "reached_content": 0.93,
+      "reached_entry": 0.07
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T4d_run2",
+      "screen_kind": "orders_list",
+      "end_state": "a list of past orders with shop names and dates is showing",
+      "label": "destination",
+      "reached": 0.87,
+      "reached_content": 0.9,
+      "reached_entry": 0.08
+    },
+    {
+      "source": "2026-09-20-round5-retest/T4d_run1",
+      "screen_kind": "delivery_profile",
+      "end_state": "a list of past orders with shop names and dates is showing",
+      "label": "not_destination",
+      "reached": 0.03,
+      "reached_content": 0.06,
+      "reached_entry": 0.87
+    },
+    {
+      "source": "2026-09-20-round5-retest/T4d_run2",
+      "screen_kind": "delivery_profile",
+      "end_state": "a list of past orders with shop names and dates is showing",
+      "label": "not_destination",
+      "reached": 0.03,
+      "reached_content": 0.07,
+      "reached_entry": 0.87
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T4d_run1",
+      "screen_kind": "delivery_home",
+      "end_state": "a list of past orders with shop names and dates is showing",
+      "label": "not_destination",
+      "reached": 0.02,
+      "reached_content": 0.04,
+      "reached_entry": 0.87
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T4d_run2",
+      "screen_kind": "delivery_group_home",
+      "end_state": "a list of past orders with shop names and dates is showing",
+      "label": "not_destination",
+      "reached": 0.06,
+      "reached_content": 0.06,
+      "reached_entry": 0.84
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T4d_run1",
+      "screen_kind": "delivery_profile",
+      "end_state": "a list of past orders with shop names and dates is showing",
+      "label": "not_destination",
+      "reached": 0.03,
+      "reached_content": 0.06,
+      "reached_entry": 0.88
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1b_run1",
+      "screen_kind": "search_result",
+      "end_state": "a list of shop results is on screen",
+      "label": "destination",
+      "reached": 0.69,
+      "reached_content": 0.59,
+      "reached_entry": 0.11
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1b_run2",
+      "screen_kind": "search_result",
+      "end_state": "a list of shop results is on screen",
+      "label": "destination",
+      "reached": 0.7,
+      "reached_content": 0.61,
+      "reached_entry": 0.11
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1a_run2",
+      "screen_kind": "search_result",
+      "end_state": "a list of shop results is on screen",
+      "label": "destination",
+      "reached": 0.78,
+      "reached_content": 0.78,
+      "reached_entry": 0.08
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1b_run2",
+      "screen_kind": "search_result",
+      "end_state": "a list of shop results is on screen",
+      "label": "destination",
+      "reached": 0.54,
+      "reached_content": 0.52,
+      "reached_entry": 0.17
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1a_run1",
+      "screen_kind": "search_typed",
+      "end_state": "a list of shop results is on screen",
+      "label": "not_destination",
+      "reached": 0.04,
+      "reached_content": 0.09,
+      "reached_entry": 0.91
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1b_run1",
+      "screen_kind": "search_typed",
+      "end_state": "a list of shop results is on screen",
+      "label": "not_destination",
+      "reached": 0.04,
+      "reached_content": 0.08,
+      "reached_entry": 0.89
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1a_run2",
+      "screen_kind": "search_typed",
+      "end_state": "a list of shop results is on screen",
+      "label": "not_destination",
+      "reached": 0.05,
+      "reached_content": 0.14,
+      "reached_entry": 0.9
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T1a_run1",
+      "screen_kind": "search_typed",
+      "end_state": "a list of shop results is on screen",
+      "label": "not_destination",
+      "reached": 0.04,
+      "reached_content": 0.11,
+      "reached_entry": 0.88
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1a_run1",
+      "screen_kind": "search_empty",
+      "end_state": "an editable search box is at the top of the screen",
+      "label": "destination",
+      "reached": 0.96,
+      "reached_content": 0.97,
+      "reached_entry": 0.07
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1a_run1",
+      "screen_kind": "search_empty",
+      "end_state": "an editable search box is at the top of the screen",
+      "label": "destination",
+      "reached": 0.96,
+      "reached_content": 0.96,
+      "reached_entry": 0.08
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1a_run2",
+      "screen_kind": "search_empty",
+      "end_state": "an editable search box is at the top of the screen",
+      "label": "destination",
+      "reached": 0.96,
+      "reached_content": 0.96,
+      "reached_entry": 0.07
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1b_run1",
+      "screen_kind": "search_empty",
+      "end_state": "an editable search box is at the top of the screen",
+      "label": "destination",
+      "reached": 0.96,
+      "reached_content": 0.96,
+      "reached_entry": 0.07
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1b_run2",
+      "screen_kind": "search_empty",
+      "end_state": "an editable search box is at the top of the screen",
+      "label": "destination",
+      "reached": 0.95,
+      "reached_content": 0.96,
+      "reached_entry": 0.08
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1a_run1",
+      "screen_kind": "delivery_home",
+      "end_state": "an editable search box is at the top of the screen",
+      "label": "not_destination",
+      "reached": 0.21,
+      "reached_content": 0.39,
+      "reached_entry": 0.82
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1a_run1",
+      "screen_kind": "delivery_home",
+      "end_state": "an editable search box is at the top of the screen",
+      "label": "not_destination",
+      "reached": 0.29,
+      "reached_content": 0.46,
+      "reached_entry": 0.81
+    },
+    {
+      "source": "2026-09-20-round5-retest/T3_run1",
+      "screen_kind": "battery_page",
+      "end_state": "battery details such as current charge level or battery usage are visible",
+      "label": "destination",
+      "reached": 0.89,
+      "reached_content": 0.92,
+      "reached_entry": 0.21
+    },
+    {
+      "source": "2026-09-20-round5-retest/T3_run2",
+      "screen_kind": "battery_page",
+      "end_state": "battery details such as current charge level or battery usage are visible",
+      "label": "destination",
+      "reached": 0.91,
+      "reached_content": 0.94,
+      "reached_entry": 0.18
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T3_run1",
+      "screen_kind": "battery_page",
+      "end_state": "battery details such as current charge level or battery usage are visible",
+      "label": "destination",
+      "reached": 0.93,
+      "reached_content": 0.95,
+      "reached_entry": 0.19
+    },
+    {
+      "source": "2026-09-20-round5-retest/T3_run1",
+      "screen_kind": "settings_home",
+      "end_state": "battery details such as current charge level or battery usage are visible",
+      "label": "not_destination",
+      "reached": 0.02,
+      "reached_content": 0.04,
+      "reached_entry": 0.92
+    },
+    {
+      "source": "2026-09-20-round5-retest/T3_run1",
+      "screen_kind": "settings_home",
+      "end_state": "battery details such as current charge level or battery usage are visible",
+      "label": "not_destination",
+      "reached": 0.02,
+      "reached_content": 0.04,
+      "reached_entry": 0.94
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T3_run1",
+      "screen_kind": "settings_home",
+      "end_state": "battery details such as current charge level or battery usage are visible",
+      "label": "not_destination",
+      "reached": 0.02,
+      "reached_content": 0.04,
+      "reached_entry": 0.94
+    },
+    {
+      "source": "2026-09-20-round5-retest/T2_run1",
+      "screen_kind": "takeout_home",
+      "end_state": "the food delivery channel home is showing, with category entries such as 美食",
+      "label": "destination",
+      "reached": 0.86,
+      "reached_content": 0.95,
+      "reached_entry": 0.15
+    },
+    {
+      "source": "2026-09-20-round5-retest/T2_run2",
+      "screen_kind": "takeout_home",
+      "end_state": "the food delivery channel home is showing, with category entries such as 美食",
+      "label": "destination",
+      "reached": 0.88,
+      "reached_content": 0.93,
+      "reached_entry": 0.15
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T2_run2",
+      "screen_kind": "takeout_home",
+      "end_state": "the food delivery channel home is showing, with category entries such as 美食",
+      "label": "destination",
+      "reached": 0.88,
+      "reached_content": 0.95,
+      "reached_entry": 0.14
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1a_run1",
+      "screen_kind": "search_typed",
+      "end_state": "the search box contains the typed text",
+      "label": "destination",
+      "reached": 0.59,
+      "reached_content": 0.67,
+      "reached_entry": 0.25
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1a_run2",
+      "screen_kind": "search_typed",
+      "end_state": "the search box contains the typed text",
+      "label": "destination",
+      "reached": 0.33,
+      "reached_content": 0.48,
+      "reached_entry": 0.33
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1b_run2",
+      "screen_kind": "search_typed",
+      "end_state": "the search box contains the typed text",
+      "label": "destination",
+      "reached": 0.22,
+      "reached_content": 0.43,
+      "reached_entry": 0.4
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1b_run1",
+      "screen_kind": "search_typed",
+      "end_state": "the search box contains the typed text",
+      "label": "destination",
+      "reached": 0.22,
+      "reached_content": 0.38,
+      "reached_entry": 0.37
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T1a_run2",
+      "screen_kind": "search_typed",
+      "end_state": "the search box contains the typed text",
+      "label": "destination",
+      "reached": 0.55,
+      "reached_content": 0.68,
+      "reached_entry": 0.28
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1a_run1",
+      "screen_kind": "search_empty",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.2,
+      "reached_content": 0.3,
+      "reached_entry": 0.47
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1a_run2",
+      "screen_kind": "delivery_home",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.03,
+      "reached_content": 0.11,
+      "reached_entry": 0.9
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1b_run1",
+      "screen_kind": "delivery_home",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.04,
+      "reached_content": 0.12,
+      "reached_entry": 0.9
+    },
+    {
+      "source": "2026-09-20-round5-retest/T1b_run1",
+      "screen_kind": "search_empty",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.06,
+      "reached_content": 0.3,
+      "reached_entry": 0.49
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1a_run1",
+      "screen_kind": "search_empty",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.05,
+      "reached_content": 0.19,
+      "reached_entry": 0.64
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T1b_run2",
+      "screen_kind": "search_empty",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.33,
+      "reached_content": 0.5,
+      "reached_entry": 0.48
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T1a_run1",
+      "screen_kind": "delivery_home",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.03,
+      "reached_content": 0.1,
+      "reached_entry": 0.9
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T1a_run1",
+      "screen_kind": "search_empty",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.05,
+      "reached_content": 0.23,
+      "reached_entry": 0.56
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T1a_run2",
+      "screen_kind": "search_empty",
+      "end_state": "the search box contains the typed text",
+      "label": "not_destination",
+      "reached": 0.15,
+      "reached_content": 0.31,
+      "reached_entry": 0.53
+    },
+    {
+      "source": "2026-09-20-round5-retest/T2_run1",
+      "screen_kind": "category_listing",
+      "end_state": "the 美食 category listing is showing",
+      "label": "destination",
+      "reached": 0.72,
+      "reached_content": 0.79,
+      "reached_entry": 0.16
+    },
+    {
+      "source": "2026-09-20-round5-retest/T2_run2",
+      "screen_kind": "category_listing",
+      "end_state": "the 美食 category listing is showing",
+      "label": "destination",
+      "reached": 0.69,
+      "reached_content": 0.74,
+      "reached_entry": 0.18
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T2_run2",
+      "screen_kind": "category_listing",
+      "end_state": "the 美食 category listing is showing",
+      "label": "destination",
+      "reached": 0.77,
+      "reached_content": 0.82,
+      "reached_entry": 0.13
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T2_run1",
+      "screen_kind": "category_listing",
+      "end_state": "the 美食 category listing is showing",
+      "label": "destination",
+      "reached": 0.62,
+      "reached_content": 0.73,
+      "reached_entry": 0.14
+    },
+    {
+      "source": "2026-09-20-round5-retest/T2_run1",
+      "screen_kind": "takeout_home",
+      "end_state": "the 美食 category listing is showing",
+      "label": "not_destination",
+      "reached": 0.16,
+      "reached_content": 0.29,
+      "reached_entry": 0.86
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T2_run1",
+      "screen_kind": "takeout_home",
+      "end_state": "the 美食 category listing is showing",
+      "label": "not_destination",
+      "reached": 0.15,
+      "reached_content": 0.3,
+      "reached_entry": 0.89
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T2_run2",
+      "screen_kind": "takeout_home",
+      "end_state": "the 美食 category listing is showing",
+      "label": "not_destination",
+      "reached": 0.18,
+      "reached_content": 0.28,
+      "reached_entry": 0.86
+    },
+    {
+      "source": "2026-09-20-round6-batchE/T2_run2",
+      "screen_kind": "takeout_home",
+      "end_state": "the 美食 category listing is showing",
+      "label": "not_destination",
+      "reached": 0.15,
+      "reached_content": 0.32,
+      "reached_entry": 0.88
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T2_run2",
+      "screen_kind": "delivery_home",
+      "end_state": "the 美食 category listing is showing",
+      "label": "not_destination",
+      "reached": 0.11,
+      "reached_content": 0.31,
+      "reached_entry": 0.84
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T2_run2",
+      "screen_kind": "mrn_loading",
+      "end_state": "the 美食 category listing is showing",
+      "label": "not_destination",
+      "reached": 0.14,
+      "reached_content": 0.2,
+      "reached_entry": 0.77
+    },
+    {
+      "source": "2026-09-20-round7-batchF/T2_run2",
+      "screen_kind": "mrn_loading",
+      "end_state": "the 美食 category listing is showing",
+      "label": "not_destination",
+      "reached": 0.13,
+      "reached_content": 0.22,
+      "reached_entry": 0.77
+    }
+  ],
+  "sweep": [
+    {
+      "content": 0.3,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.3,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 11
+    },
+    {
+      "content": 0.3,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.3,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.3,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.3,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.5,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.55,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.6,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.65,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.7,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.35,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 11
+    },
+    {
+      "content": 0.35,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.35,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.35,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.35,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.5,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.55,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.6,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.65,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.7,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.4,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 11
+    },
+    {
+      "content": 0.4,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.4,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.4,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.4,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.5,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.55,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.6,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.65,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.7,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.45,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 11
+    },
+    {
+      "content": 0.45,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.45,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.45,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.45,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.5,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.55,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.6,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.65,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.7,
+      "false_stops": 1,
+      "misses": 2
+    },
+    {
+      "content": 0.5,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.5,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 11
+    },
+    {
+      "content": 0.5,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.5,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.5,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.5,
+      "false_stops": 1,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.55,
+      "false_stops": 1,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.6,
+      "false_stops": 1,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.65,
+      "false_stops": 1,
+      "misses": 3
+    },
+    {
+      "content": 0.5,
+      "entry": 0.7,
+      "false_stops": 1,
+      "misses": 3
+    },
+    {
+      "content": 0.55,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.55,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 11
+    },
+    {
+      "content": 0.55,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 7
+    },
+    {
+      "content": 0.55,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.55,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.55,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 4
+    },
+    {
+      "content": 0.6,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.6,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.6,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.6,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.6,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.6,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 5
+    },
+    {
+      "content": 0.65,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.65,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.65,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 9
+    },
+    {
+      "content": 0.65,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 7
+    },
+    {
+      "content": 0.65,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.65,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 6
+    },
+    {
+      "content": 0.7,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.7,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.7,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 9
+    },
+    {
+      "content": 0.7,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.7,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 8
+    },
+    {
+      "content": 0.75,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 18
+    },
+    {
+      "content": 0.75,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 14
+    },
+    {
+      "content": 0.75,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 11
+    },
+    {
+      "content": 0.75,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.75,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 10
+    },
+    {
+      "content": 0.8,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 19
+    },
+    {
+      "content": 0.8,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 15
+    },
+    {
+      "content": 0.8,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.8,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.8,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 12
+    },
+    {
+      "content": 0.85,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 19
+    },
+    {
+      "content": 0.85,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 16
+    },
+    {
+      "content": 0.85,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 14
+    },
+    {
+      "content": 0.85,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.85,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.1,
+      "false_stops": 0,
+      "misses": 19
+    },
+    {
+      "content": 0.9,
+      "entry": 0.15,
+      "false_stops": 0,
+      "misses": 16
+    },
+    {
+      "content": 0.9,
+      "entry": 0.2,
+      "false_stops": 0,
+      "misses": 14
+    },
+    {
+      "content": 0.9,
+      "entry": 0.25,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.3,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.5,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.55,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.6,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.65,
+      "false_stops": 0,
+      "misses": 13
+    },
+    {
+      "content": 0.9,
+      "entry": 0.7,
+      "false_stops": 0,
+      "misses": 13
+    }
+  ],
+  "best_pairs": [
+    {
+      "content": 0.3,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.3,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.35,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.4,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.35,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.4,
+      "false_stops": 0,
+      "misses": 2
+    },
+    {
+      "content": 0.45,
+      "entry": 0.45,
+      "false_stops": 0,
+      "misses": 2
+    }
+  ],
+  "margins": {
+    "reached": {
+      "destination_min": 0.22,
+      "destination_max": 0.96,
+      "not_destination_min": 0.02,
+      "not_destination_max": 0.33,
+      "gap": -0.11
+    },
+    "reached_content": {
+      "destination_min": 0.38,
+      "destination_max": 0.97,
+      "not_destination_min": 0.04,
+      "not_destination_max": 0.5,
+      "gap": -0.12
+    },
+    "reached_entry": {
+      "destination_min": 0.07,
+      "destination_max": 0.4,
+      "not_destination_min": 0.47,
+      "not_destination_max": 0.94,
+      "gap": -0.87
+    }
+  }
+}

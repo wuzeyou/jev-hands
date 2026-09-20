@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "jev-hands-android": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "${CLAUDE_PLUGIN_ROOT}",
+        "--no-dev",
+        "--frozen",
+        "python",
+        "-m",
+        "jev_hands.servers.android"
+      ],
+      "env": {
+        "UV_PROJECT_ENVIRONMENT": "${CLAUDE_PLUGIN_DATA}/venv",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}
