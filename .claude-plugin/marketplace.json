@@ -1,0 +1,15 @@
+{
+  "name": "jev-hands",
+  "description": "Drive an Android phone from Claude Code, with TypeSafe Jev deciding which UI element to act on.",
+  "owner": {
+    "name": "wuzeyou",
+    "url": "https://github.com/wuzeyou"
+  },
+  "plugins": [
+    {
+      "name": "jev-hands",
+      "description": "Drive an Android phone from Claude Code: TypeSafe Jev picks which UI element to act on, the plugin validates and executes it.",
+      "source": "./"
+    }
+  ]
+}

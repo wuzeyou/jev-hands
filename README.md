@@ -54,13 +54,21 @@ asleep, the agent killed). Only `dump_error` is worth retrying.
 
 ## Install
 
-While developing, or to try it out:
+In a Claude Code session:
+
+```
+/plugin marketplace add wuzeyou/jev-hands
+/plugin install jev-hands
+```
+
+While developing on the plugin itself, point Claude Code at a working copy
+instead:
 
 ```sh
 claude --plugin-dir /path/to/jev-hands
 ```
 
-Then, in the session:
+Either way, then:
 
 1. `/jev-hands:setup` - stores the API key. A hidden macOS dialog opens and the
    value goes straight into the keychain (service `jev-hands`, account
